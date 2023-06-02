@@ -1,0 +1,14 @@
+#miDiv {
+    position: relative;
+    left: -100%;
+    animation: aparecerDesdeIzquierda 1s forwards;
+  }
+  
+  @keyframes aparecerDesdeIzquierda {
+    0% {
+      left: -100%;
+    }
+    100% {
+      left: 0;
+    }
+  }
